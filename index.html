@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero__content">
+            <header class="header">
+                <h2 class="header__logo">Learn</h2>
+                <nav class="header__nav">
+                    <a href="#about" class="header__link">About</a>
+                    <a href="#register" class="header__link">Register</a>
+                    <a href="#contact" class="header__link">Contact</a>
+                </nav>
+            </header>
+            <section class="benefits">
+                <h1 class="benefits__title">Learn English with us</h1>
+                <h2 class="benefits__subtitle">student results</h2>
+                <div class="benefits__list">
+                    <div class="benefits__item">
+                        <img src="images/tick.svg" class="benefits__icon" alt="Tick icon">
+                        <span class="benefits__text">
+                            <span class="benefits__highlight">30% </span>
+                            increase in vocabulary
+                        </span>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="images/tick.svg" class="benefits__icon" alt="Tick icon">
+                        <span class="benefits__text">
+                            increased speech comprehension
+                            <span class="benefits__highlight"> 40%</span>
+                        </span>
+                    </div>
+                    <div class="benefits__item">
+                        <img src="images/tick.svg" class="benefits__icon" alt="Tick icon">
+                        <span class="benefits__text">
+                            <span class="benefits__highlight">20% </span>
+                            increase in reading speed
+                        </span>
+                    </div>
+                </div>
+                <button class="button button--primary">
+                    Sign up
+                </button>
+            </section>
+        </div>
+        <div class="hero__image">
+            <img src="images/woman-holding-bunch-books.jpg" class="hero__img" alt="Decorative image">
+        </div>
+    </div>
+
+    <section class="features">
+        <div class="features__image features__image--left">
+            <img src="images/man.png" class="features__img" alt="Man">
+        </div>
+        <div class="features__content">
+            <div id="about" class="features__about">
+                <div class="features__item">
+                    <img src="images/item.svg" class="features__icon" alt="List icon" width="39" height="37">
+                    <p class="features__description">
+                        Interactive Lessons – Practice English with engaging activities, quizzes, and exercises that help you learn faster and more effectively.
+                    </p>
+                </div>
+                <div class="features__item">
+                    <img src="images/item.svg" class="features__icon" alt="List icon" width="39" height="37">
+                    <p class="features__description">
+                        Live Communication – Join online groups and chat with native speakers in real-time to build confidence in spoken English.
+                    </p>
+                </div>
+                <div class="features__item">
+                    <img src="images/item.svg" class="features__icon" alt="List icon" width="39" height="37">
+                    <p class="features__description">
+                        Access to Resources – Learn with video lessons, audio training, grammar guides, and useful articles.
+                    </p>
+                </div>
+                <div class="features__item">
+                    <img src="images/item.svg" class="features__icon" alt="List icon" width="39" height="37">
+                    <p class="features__description">
+                        Personalized Learning – Tailor your study plan to match your goals, whether it's travel, work, or expanding your vocabulary.
+                    </p>
+                </div>
+            </div>
+            <button class="button button--secondary">Sign up</button>
+        </div>
+        <div class="features__image features__image--right">
+            <img src="images/books.jpg" class="features__img" alt="Books">
+        </div>
+    </section>
+
+    <section class="registration">
+        <div class="registration__form">
+            <div>
+                <h2 class="registration__title">Start Learning Today</h2>
+                <form class="form" id="register">
+                    <div class="form__group">
+                        <input type="text" class="form__input" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form__checkbox checkbox">
+                        <input type="checkbox" id="private" class="checkbox__input" name="private">
+                        <label for="private" class="checkbox__label">I accept Privacy policy</label>
+                    </div>
+                    <button type="submit" class="button button--submit">Enroll Now</button>
+                </form>
+            </div>
+            <div class="registration__visual">
+                <div class="registration__bg"></div>
+                <div class="registration__main-image">
+                    <img src="images/maxres.png" class="registration__img" alt="Man" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <a href="#about" class="footer__link">About</a>
+            <a href="#register" class="footer__link">Register</a>
+            <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+        <div class="footer__content">
+            <div class="footer__section">
+                <h2 class="footer__logo">Learn</h2>
+                <span class="footer__copyright">© 2025, Learn English</span>
+            </div>
+            <div class="footer__section">
+                <div class="social" id="contact">
+                    <img src="images/inst.svg" class="social__icon" alt="Instagram icon">
+                    <img src="images/tiktok.svg" class="social__icon" alt="TikTok icon">
+                    <img src="images/linkedin.svg" class="social__icon" alt="Linkedin icon">
+                    <img src="images/facebook.svg" class="social__icon" alt="Facebook icon">
+                    <img src="images/Telegram.svg" class="social__icon" alt="Telegram icon">
+                    <img src="images/youtube.svg" class="social__icon" alt="Youtube icon">
+                </div>
+                <span class="footer__policy">Privacy policy</span>
+            </div>
+            <div class="footer__section">
+                <button class="button button--footer">
+                    Sign up
+                </button>
+                <span class="footer__terms">Terms of Use</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
